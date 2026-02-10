@@ -1,0 +1,751 @@
+{
+  "name": {
+    "label": "Name",
+    "field_name": "name",
+    "format": "text",
+    "interval": false,
+    "historical": false
+  },
+  "close": {
+    "label": "Price",
+    "field_name": "close",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "high": {
+    "label": "High",
+    "field_name": "high",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "low": {
+    "label": "Low",
+    "field_name": "low",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "High.All": {
+    "label": "All Time High",
+    "field_name": "High.All",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "Low.All": {
+    "label": "All Time Low",
+    "field_name": "Low.All",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "High.1M": {
+    "label": "1-Month High",
+    "field_name": "High.1M",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "Low.1M": {
+    "label": "1-Month Low",
+    "field_name": "Low.1M",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "High.3M": {
+    "label": "3-Month High",
+    "field_name": "High.3M",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "Low.3M": {
+    "label": "3-Month Low",
+    "field_name": "Low.3M",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "price_52_week_high": {
+    "label": "52 Week High",
+    "field_name": "price_52_week_high",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "price_52_week_low": {
+    "label": "52 Week Low",
+    "field_name": "price_52_week_low",
+    "format": "round",
+    "interval": false,
+    "historical": false
+  },
+  "Perf.All": {
+    "label": "All Time Performance",
+    "field_name": "Perf.All",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "Perf.1M": {
+    "label": "Monthly Performance",
+    "field_name": "Perf.1M",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "Perf.3M": {
+    "label": "3-Month Performance",
+    "field_name": "Perf.3M",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "Perf.6M": {
+    "label": "6-Month Performance",
+    "field_name": "Perf.6M",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "Perf.W": {
+    "label": "Weekly Performance",
+    "field_name": "Perf.W",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "change": {
+    "label": "Change %",
+    "field_name": "change",
+    "format": "percent",
+    "interval": true,
+    "historical": false
+  },
+  "SMA5": {
+    "label": "Simple Moving Average (5)",
+    "field_name": "SMA5",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "SMA10": {
+    "label": "Simple Moving Average (10)",
+    "field_name": "SMA10",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "SMA20": {
+    "label": "Simple Moving Average (20)",
+    "field_name": "SMA20",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "SMA30": {
+    "label": "Simple Moving Average (30)",
+    "field_name": "SMA30",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "SMA50": {
+    "label": "Simple Moving Average (50)",
+    "field_name": "SMA50",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "SMA100": {
+    "label": "Simple Moving Average (100)",
+    "field_name": "SMA100",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "SMA200": {
+    "label": "Simple Moving Average (200)",
+    "field_name": "SMA200",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "EMA5": {
+    "label": "Exponential Moving Average (5)",
+    "field_name": "EMA5",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "EMA10": {
+    "label": "Exponential Moving Average (10)",
+    "field_name": "EMA10",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "EMA20": {
+    "label": "Exponential Moving Average (20)",
+    "field_name": "EMA20",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "EMA30": {
+    "label": "Exponential Moving Average (30)",
+    "field_name": "EMA30",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "EMA50": {
+    "label": "Exponential Moving Average (50)",
+    "field_name": "EMA50",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "EMA100": {
+    "label": "Exponential Moving Average (100)",
+    "field_name": "EMA100",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "EMA200": {
+    "label": "Exponential Moving Average (200)",
+    "field_name": "EMA200",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "HullMA9": {
+    "label": "Hull Moving Average (9)",
+    "field_name": "HullMA9",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "VWMA": {
+    "label": "Volume Weighted Moving Average (20)",
+    "field_name": "VWMA",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "VWAP": {
+    "label": "Volume Weighted Average Price",
+    "field_name": "VWAP",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "Aroon.Up": {
+    "label": "Aroon Up (14)",
+    "field_name": "Aroon.Up",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "Aroon.Down": {
+    "label": "Aroon Down (14)",
+    "field_name": "Aroon.Down",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "ADX": {
+    "label": "Average Directional Index (14)",
+    "field_name": "ADX",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "ADX+DI": {
+    "label": "Positive Directional Indicator (14)",
+    "field_name": "ADX+DI",
+    "format": "round",
+    "interval": true,
+    "historical": true
+  },
+  "ADX-DI": {
+    "label": "Negative Directional Indicator (14)",
+    "field_name": "ADX-DI",
+    "format": "round",
+    "interval": true,
+    "historical": true
+  },
+  "Ichimoku.CLine": {
+    "label": "Ichimoku Conversion Line (9, 26, 52, 26)",
+    "field_name": "Ichimoku.CLine",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "Ichimoku.BLine": {
+    "label": "Ichimoku Base Line (9, 26, 52, 26)",
+    "field_name": "Ichimoku.BLine",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "Ichimoku.Lead1": {
+    "label": "Ichimoku Leading Span A (9, 26, 52, 26)",
+    "field_name": "Ichimoku.Lead1",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "Ichimoku.Lead2": {
+    "label": "Ichimoku Leading Span B (9, 26, 52, 26)",
+    "field_name": "Ichimoku.Lead2",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "P.SAR": {
+    "label": "Parabolic SAR",
+    "field_name": "P.SAR",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "ADR": {
+    "label": "Average Day Range (14)",
+    "field_name": "ADR",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "ATR": {
+    "label": "Average True Range (14)",
+    "field_name": "ATR",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "BB.upper": {
+    "label": "Bollinger Upper Band (20)",
+    "field_name": "BB.upper",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "BB.lower": {
+    "label": "Bollinger Lower Band (20)",
+    "field_name": "BB.lower",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "DonchCh20.Upper": {
+    "label": "Donchian Channels Upper Band (20)",
+    "field_name": "DonchCh20.Upper",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "DonchCh20.Lower": {
+    "label": "Donchian Channels Lower Band (20)",
+    "field_name": "DonchCh20.Lower",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "KltChnl.upper": {
+    "label": "Keltner Channels Upper Band (20)",
+    "field_name": "KltChnl.upper",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "KltChnl.lower": {
+    "label": "Keltner Channels Lower Band (20)",
+    "field_name": "KltChnl.lower",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "Volatility.D": {
+    "label": "Volatility",
+    "field_name": "Volatility.D",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "Volatility.M": {
+    "label": "Volatility Month",
+    "field_name": "Volatility.M",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "Volatility.W": {
+    "label": "Volatility Week",
+    "field_name": "Volatility.W",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "volume": {
+    "label": "Volume",
+    "field_name": "volume",
+    "format": "number_group",
+    "interval": true,
+    "historical": false
+  },
+  "average_volume_10d_calc": {
+    "label": "Average Volume (10 day)",
+    "field_name": "average_volume_10d_calc",
+    "format": "number_group",
+    "interval": false,
+    "historical": false
+  },
+  "average_volume_30d_calc": {
+    "label": "Average Volume (30 day)",
+    "field_name": "average_volume_30d_calc",
+    "format": "number_group",
+    "interval": false,
+    "historical": false
+  },
+  "relative_volume_10d_calc": {
+    "label": "Relative Volume",
+    "field_name": "relative_volume_10d_calc",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "24h_vol|5": {
+    "label": "Volume 24h in USD",
+    "field_name": "24h_vol|5",
+    "format": "number_group",
+    "interval": false,
+    "historical": false
+  },
+  "24h_vol_change|5": {
+    "label": "Volume 24h Change %",
+    "field_name": "24h_vol_change|5",
+    "format": "percent",
+    "interval": false,
+    "historical": false
+  },
+  "AO": {
+    "label": "Awesome Oscillator",
+    "field_name": "AO",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": true
+  },
+  "BBPower": {
+    "label": "Bull Bear Power",
+    "field_name": "BBPower",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "CCI20": {
+    "label": "Commodity Channel Index (20)",
+    "field_name": "CCI20",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": true
+  },
+  "MACD.macd": {
+    "label": "MACD Level (12, 26)",
+    "field_name": "MACD.macd",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "MACD.signal": {
+    "label": "MACD Signal (12, 26)",
+    "field_name": "MACD.signal",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "Mom": {
+    "label": "Momentum (10)",
+    "field_name": "Mom",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": true
+  },
+  "ROC": {
+    "label": "Rate Of Change (9)",
+    "field_name": "ROC",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "RSI": {
+    "label": "Relative Strength Index (14)",
+    "field_name": "RSI",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": true
+  },
+  "RSI7": {
+    "label": "Relative Strength Index (7)",
+    "field_name": "RSI7",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": true
+  },
+  "Stoch.K": {
+    "label": "Stochastic %K (14, 3, 3)",
+    "field_name": "Stoch.K",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": true
+  },
+  "Stoch.D": {
+    "label": "Stochastic %D (14, 3, 3)",
+    "field_name": "Stoch.D",
+    "format": "round",
+    "interval": true,
+    "historical": true
+  },
+  "Stoch.RSI.K": {
+    "label": "Stochastic RSI Fast (3, 3, 14, 14)",
+    "field_name": "Stoch.RSI.K",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "Stoch.RSI.D": {
+    "label": "Stochastic RSI Slow (3, 3, 14, 14)",
+    "field_name": "Stoch.RSI.D",
+    "format": "round",
+    "interval": true,
+    "historical": false
+  },
+  "UO": {
+    "label": "Ultimate Oscillator (7, 14, 28)",
+    "field_name": "UO",
+    "format": "float",
+    "interval": true,
+    "historical": false
+  },
+  "W.R": {
+    "label": "Williams Percent Range (14)",
+    "field_name": "W.R",
+    "format": "computed_recommendation",
+    "interval": true,
+    "historical": false
+  },
+  "Recommend.MA": {
+    "label": "Moving Averages Rating",
+    "field_name": "Recommend.MA",
+    "format": "rating",
+    "interval": true,
+    "historical": false
+  },
+  "Recommend.Other": {
+    "label": "Oscillators Rating",
+    "field_name": "Recommend.Other",
+    "format": "rating",
+    "interval": true,
+    "historical": false
+  },
+  "Recommend.All": {
+    "label": "Technical Rating",
+    "field_name": "Recommend.All",
+    "format": "rating",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.3BlackCrows": {
+    "label": "Candle. Three Black Crows (Bearish Reversal)",
+    "field_name": "Candle.3BlackCrows",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.3WhiteSoldiers": {
+    "label": "Candle. Three White Soldiers (Bullish Reversal)",
+    "field_name": "Candle.3WhiteSoldiers",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.AbandonedBaby.Bearish": {
+    "label": "Candle. Abandoned Baby (Bearish Reversal)",
+    "field_name": "Candle.AbandonedBaby.Bearish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.AbandonedBaby.Bullish": {
+    "label": "Candle. Abandoned Baby (Bullish Reversal)",
+    "field_name": "Candle.AbandonedBaby.Bullish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Doji": {
+    "label": "Candle. Doji (Indecision Candle)",
+    "field_name": "Candle.Doji",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Doji.Dragonfly": {
+    "label": "Candle. Dragonfly Doji (Bullish Reversal Doji)",
+    "field_name": "Candle.Doji.Dragonfly",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Doji.Gravestone": {
+    "label": "Candle. Gravestone Doji (Bearish Reversal Doji)",
+    "field_name": "Candle.Doji.Gravestone",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Engulfing.Bearish": {
+    "label": "Candle. Bearish Engulfing (Downtrend Reversal)",
+    "field_name": "Candle.Engulfing.Bearish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Engulfing.Bullish": {
+    "label": "Candle. Bullish Engulfing (Uptrend Reversal)",
+    "field_name": "Candle.Engulfing.Bullish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.EveningStar": {
+    "label": "Candle. Evening Star (Bearish Reversal Pattern)",
+    "field_name": "Candle.EveningStar",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Hammer": {
+    "label": "Candle. Hammer (Bullish Reversal)",
+    "field_name": "Candle.Hammer",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.HangingMan": {
+    "label": "Candle. Hanging Man (Bearish Reversal)",
+    "field_name": "Candle.HangingMan",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Harami.Bearish": {
+    "label": "Candle. Bearish Harami (Potential Downtrend)",
+    "field_name": "Candle.Harami.Bearish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Harami.Bullish": {
+    "label": "Candle. Bullish Harami (Potential Uptrend)",
+    "field_name": "Candle.Harami.Bullish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.InvertedHammer": {
+    "label": "Candle. Inverted Hammer (Bullish Reversal)",
+    "field_name": "Candle.InvertedHammer",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Kicking.Bearish": {
+    "label": "Candle. Kicking (Bearish, Strong Reversal Gap)",
+    "field_name": "Candle.Kicking.Bearish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Kicking.Bullish": {
+    "label": "Candle. Kicking (Bullish, Strong Reversal Gap)",
+    "field_name": "Candle.Kicking.Bullish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.LongShadow.Lower": {
+    "label": "Candle. Long Lower Shadow (Bullish Signal)",
+    "field_name": "Candle.LongShadow.Lower",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.LongShadow.Upper": {
+    "label": "Candle. Long Upper Shadow (Bearish Signal)",
+    "field_name": "Candle.LongShadow.Upper",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Marubozu.Black": {
+    "label": "Candle. Black Marubozu (Strong Bearish Candle)",
+    "field_name": "Candle.Marubozu.Black",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.Marubozu.White": {
+    "label": "Candle. White Marubozu (Strong Bullish Candle)",
+    "field_name": "Candle.Marubozu.White",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.MorningStar": {
+    "label": "Candle. Morning Star (Bullish Reversal Pattern)",
+    "field_name": "Candle.MorningStar",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.ShootingStar": {
+    "label": "Candle. Shooting Star (Bearish Reversal)",
+    "field_name": "Candle.ShootingStar",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.SpinningTop.Black": {
+    "label": "Candle. Black Spinning Top (Market Indecision, Bearish Bias)",
+    "field_name": "Candle.SpinningTop.Black",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.SpinningTop.White": {
+    "label": "Candle. White Spinning Top (Market Indecision, Bullish Bias)",
+    "field_name": "Candle.SpinningTop.White",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.TriStar.Bearish": {
+    "label": "Candle. Tri-Star (Bearish Reversal Pattern)",
+    "field_name": "Candle.TriStar.Bearish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  },
+  "Candle.TriStar.Bullish": {
+    "label": "Candle. Tri-Star (Bullish Reversal Pattern)",
+    "field_name": "Candle.TriStar.Bullish",
+    "format": "bool",
+    "interval": true,
+    "historical": false
+  }
+}

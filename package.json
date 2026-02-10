@@ -1,0 +1,36 @@
+{
+  "name": "tradingview-crypto-screener",
+  "version": "1.0.0",
+  "description": "Programmatic access to TradingView's crypto screener with multi-timeframe support and 80+ technical indicators",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/fields"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tradingview",
+    "screener",
+    "crypto",
+    "technical-analysis",
+    "multi-timeframe",
+    "cryptocurrency",
+    "indicators",
+    "rsi",
+    "macd",
+    "bollinger-bands",
+    "candlestick-patterns"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
