@@ -1,5 +1,6 @@
 # tradingview-crypto-screener
 
+[![npm](https://img.shields.io/npm/v/tradingview-crypto-screener)](https://www.npmjs.com/package/tradingview-crypto-screener)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
 

@@ -1,6 +1,6 @@
 {
   "name": "tradingview-crypto-screener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Programmatic access to TradingView's crypto screener with multi-timeframe support and 80+ technical indicators",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,6 +25,14 @@
     "bollinger-bands",
     "candlestick-patterns"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valdex/tradingview-crypto-screener.git"
+  },
+  "homepage": "https://github.com/Valdex/tradingview-crypto-screener",
+  "bugs": {
+    "url": "https://github.com/Valdex/tradingview-crypto-screener/issues"
+  },
   "author": "",
   "license": "MIT",
   "engines": {
